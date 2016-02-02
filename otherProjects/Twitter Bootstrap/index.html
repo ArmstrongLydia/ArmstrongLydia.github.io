@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Example of Bootstrap</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<style type="text/css">
+	.navbar{
+		margin-top: 20px;
+	}
+</style>
+</head>
+<body>
+
+  <!--start of inverted nav bar-->
+<div class="container">
+    <nav role="navigation" class="navbar navbar-inverse">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand">Lydia Armstrong</a>
+        </div>
+        <!-- Collection of nav links, forms, and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home<span class="badge">1</span></a></li>
+
+                <li><a href="#">Profile</a></li>
+                <li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Messages <span class="badge">24</span><b class="caret"></b></a>
+                    <ul role="menu" class="dropdown-menu">
+                        <li><a href="#">Inbox</a></li>
+                        <li><a href="#">Drafts</a></li>
+                        <li><a href="#">Sent Items</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Trash</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form role="search" class="navbar-form navbar-left">
+                <div class="form-group">
+                    <input type="text" placeholder="Search" class="form-control">
+                </div>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+
+<!--Jumbortron-->
+<div class="container">
+	<div class="row">
+    	<div class="col-xs-12">
+        	<div class="jumbotron visible-lg">  <!-- makes visible only on desktop and not phone-->
+                <h1>Learn to Create Websites</h1>
+            	<p>Etiam aliquet, erat at gravida aliquam, nibh elit tempus metus, nec porttitor quam eros eu lacus. Pellentesque porttitor
+								lacus vitae nibh ultrices porttitor. Quisque ullamcorper, ex nec maximus cursus, ligula velit porta quam, at placerat dolor
+								nisi nec enim. Donec auctor erat vel arcu rhoncus pretium. Nulla iaculis eros at nisi tempus mollis. Duis dolor ex,
+								facilisis ut ultricies at, ornare vel nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+								ac turpis egestas. Praesent quis sem quis tortor facilisis dictum nec eu quam. Aliquam a metus libero. Donec scelerisque
+								nisl risus, ut iaculis quam volutpat vel. Aenean sit amet placerat metus. Morbi cursus id elit ut accumsan. Integer metus
+								tortor, fermentum nec pretium id, consequat in sapien. Nam et nulla lobortis, feugiat nisi quis, posuere dolor. Vestibulum
+								sed purus maximus, luctus augue at, dignissim odio.</p>
+            	<p><a href="http://www.tutorialrepublic.com" target="_blank" class="btn btn-primary btn-lg">Get started today</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--rows and shit-->
+<div class="col-sm-6 col-lg-4">
+                <img src="minion.jpg" width="350" class="img-rounded" alt="Rounded Image">  <!-- rounded image -->
+            </div>
+            <div class="col-sm-6 col-lg-4">
+<!--media object-->
+<div class="media">
+    <div class="media-left">
+        <a href="#">
+            <img src="Flamingos.jpg" class="media-object" alt="Sample Image">
+        </a>
+    </div>
+    <div class="media-body">
+        <h4 class="media-heading">Jhon Carter <small><i>Posted on January 10, 2014</i></small></h4>
+        <p>Excellent feature! I love it. One day I'm definitely going to put this Bootstrap component into use and I'll let you know once I do.</p>
+    </div>
+</div>
+
+
+
+<div class="col-sm-6 col-lg-4">
+
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+									standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+									a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+									remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+									Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+									of Lorem Ipsum.</p>
+									<br>
+									<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-th"></span> Icon</button>
+<button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-star"></span> ...</button>
+						</div>
+
+
+
+<div class="col-sm-6 col-lg-4">
+				<p>Etiam aliquet, erat at gravida aliquam, nibh elit tempus metus, nec porttitor quam eros eu lacus. Pellentesque porttitor
+					lacus vitae nibh ultrices porttitor. Quisque ullamcorper, ex nec maximus cursus, ligula velit porta quam, at placerat dolor
+					nisi nec enim. Donec auctor erat vel arcu rhoncus pretium. Nulla iaculis eros at nisi tempus mollis. Duis dolor ex,
+					facilisis ut ultricies at, ornare vel nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+					ac turpis egestas. Praesent quis sem quis tortor facilisis dictum nec eu quam. Aliquam a metus libero. Donec scelerisque
+					nisl risus, ut iaculis quam volutpat vel. Aenean sit amet placerat metus. Morbi cursus id elit ut accumsan. Integer metus
+					tortor, fermentum nec pretium id, consequat in sapien. Nam et nulla lobortis, feugiat nisi quis, posuere dolor. Vestibulum
+					sed purus maximus, luctus augue at, dignissim odio.</p>
+						<div class="panel panel-default">
+						    <div class="panel-heading">This Page is Disabled</div>
+						    <div class="panel-body">This page is temporarily disabled by the site administrator for some reason.<br> <a href="#">Click here</a> to enable the page.</div>
+						</div>
+						<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-heart"></span> Heart</button>
+					</div>
+
+<div class="col-sm-6 col-lg-4">
+					<p>Etiam aliquet, erat at gravida aliquam, nibh elit tempus metus, nec porttitor quam eros eu lacus. Pellentesque porttitor
+						lacus vitae nibh ultrices porttitor. Quisque ullamcorper, ex nec maximus cursus, ligula velit porta quam, at placerat dolor
+						nisi nec enim. Donec auctor erat vel arcu rhoncus pretium. Nulla iaculis eros at nisi tempus mollis. Duis dolor ex,
+						facilisis ut ultricies at, ornare vel nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+						ac turpis egestas. Praesent quis sem quis tortor facilisis dictum nec eu quam. Aliquam a metus libero. Donec scelerisque
+						nisl risus, ut iaculis quam volutpat vel. Aenean sit amet placerat metus. Morbi cursus id elit ut accumsan. Integer metus
+						tortor, fermentum nec pretium id, consequat in sapien. Nam et nulla lobortis, feugiat nisi quis, posuere dolor. Vestibulum
+						sed purus maximus, luctus augue at, dignissim odio.</p>
+
+<div class="progress progress-striped">
+    <div class="progress-bar" style="width: 60%;">
+        <span class="sr-only">60% Complete</span>
+    </div>
+</div>
+<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span> Search</button>
+</div>
+
+</body>
+</html>
