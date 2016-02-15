@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Example of Bootstrap 3 Contextual Background Classes</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+      <style type="text/css">
+    .bs-example{
+    	margin: 20px;
+    }
+	.bs-example p{
+    	padding: 10px;
+    }
+      </style>
+</head>
+  <body>
+
+    <!--input-group-->
+    <form>
+        <div class="row">
+            <div class="col-xs-4">
+                <div class="input-group">
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                    <input type="text" class="form-control" placeholder="Username">
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Password">
+                    <span class="input-group-addon">P</span>
+                </div>
+            </div>
+            </div>
+        </div>
+    </form>
+
+
+    <h1>This is my header</h1>
+
+    <!--button-->
+    <button type="button" class="btn btn-default">Default</button>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-link">Link</button>
+
+    <div class="bs-example">
+      <p class="bg-primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultricies porta velit at molestie.
+        In accumsan elementum nunc. Phasellus ultricies at nisi quis lacinia. Nulla ipsum tortor, faucibus eu turpis ut,
+        euismod commodo nulla. Maecenas eget erat ac magna aliquet tempor eu cursus purus. Curabitur libero est, gravida
+        vitae tincidunt eget, interdum a massa. Pellentesque nulla est, iaculis id aliquet non, egestas quis magna.
+        Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed a ultricies risus. Proin sed augue imperdiet,
+        tristique ante eu, hendrerit diam. Nunc nisi tellus, lobortis vitae massa ut, varius lacinia quam. Cras cursus tortor
+        at lectus pharetra, nec vehicula eros rutrum. Donec venenatis risus nunc, at elementum lectus luctus quis.</p>
+
+      <p class="bg-success">Pellentesque et velit libero. Duis ut nulla tempor, facilisis ligula vel, ornare sapien.
+        Maecenas sed arcu ut leo mollis commodo. Pellentesque nec auctor eros. Fusce neque mi, semper a volutpat id,
+        maximus consectetur metus. Sed condimentum vulputate neque at facilisis. Vivamus facilisis odio vel eros suscipit,
+        eget mattis urna malesuada. Nullam sem neque, vehicula vitae justo sit amet, tincidunt bibendum augue. Donec vel
+        diam scelerisque, dignissim turpis nec, ullamcorper turpis. Sed lorem magna, tincidunt vel tellus quis, rhoncus
+        cursus nibh. Duis dignissim eu eros at vestibulum. Pellentesque egestas fermentum nisl ac facilisis. Maecenas at
+        hendrerit lacus. Morbi ante magna, laoreet in semper ac, gravida eget quam. Nunc aliquet, ex eget eleifend
+        interdum, enim lectus malesuada elit, at lacinia odio neque sit amet nisi.</p>
+<!--
+      <p class="bg-info">Note: You must agree with the terms and conditions to complete the sign up process.</p>
+      <p class="bg-warning">Warning: There was a problem with your network connection.</p>
+      <p class="bg-danger">Error: An error has been occurred while submitting your data.</p>
+    -->
+    </div>
+<!--table-->
+    <table class="table">
+    <thead>
+        <tr>
+            <th>Row</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>John</td>
+            <td>Carter</td>
+            <td>johncarter@mail.com</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Peter</td>
+            <td>Parker</td>
+            <td>peterparker@mail.com</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>John</td>
+            <td>Rambo</td>
+            <td>johnrambo@mail.com</td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="bs-example">
+<p class="bg-info">Mauris finibus felis eget sapien porttitor, vitae auctor turpis venenatis. Praesent porta metus
+  vitae nunc gravida accumsan. Suspendisse potenti. Pellentesque porta dui at ligula fringilla ultrices. Proin ut
+  est quis neque fermentum tristique. Etiam at rhoncus est. Morbi pellentesque ante nec libero sagittis porttitor.
+  Curabitur fermentum leo in odio suscipit, ac mollis sapien vulputate. Nam nec erat id nibh porta iaculis sed sit
+  amet dolor.
+  <br></br>
+  Proin ut elit sed metus blandit bibendum. Ut aliquet diam ut urna pulvinar rutrum. Nulla viverra nisl sed gravida
+  venenatis. Donec tristique orci magna, quis pretium lorem luctus id. Phasellus aliquet at arcu eget aliquam. Phasellus
+  pulvinar gravida augue a commodo. Quisque ligula mi, auctor vitae nibh at, pharetra dapibus risus. Proin volutpat nulla
+  et odio venenatis, nec blandit ligula vulputate.</p>
+</div>
+<!--button-group-->
+<div class="container text-center">
+<div class="btn-group">
+    <button type="button" class="btn btn-primary">Left</button>
+    <button type="button" class="btn btn-primary">Middle</button>
+    <button type="button" class="btn btn-primary">Right</button>
+</div>
+</div>
+
+<div class="container row">
+  <div class="col-md-4">
+    <div class="demo-content"> Ttile</div>
+    <p>Pellentesque et velit libero. Duis ut nulla tempor, facilisis ligula vel, ornare sapien. Maecenas sed arcu ut leo
+      mollis commodo. Pellentesque nec auctor eros. Fusce neque mi, semper a volutpat id, maximus consectetur metus. Sed
+      condimentum vulputate neque at facilisis. Vivamus facilisis odio vel eros suscipit, eget mattis urna malesuada.
+      Nullam sem neque, vehicula vitae justo sit amet, tincidunt bibendum augue. Donec vel diam scelerisque, dignissim
+      turpis nec, ullamcorper turpis. Sed lorem magna, tincidunt vel tellus quis, rhoncus cursus nibh. Duis dignissim eu
+      eros at vestibulum. Pellentesque egestas fermentum nisl ac facilisis. Maecenas at hendrerit lacus. Morbi ante magna,
+      laoreet in semper ac, gravida eget quam. Nunc aliquet, ex eget eleifend interdum, enim lectus malesuada elit, at lacinia
+      odio neque sit amet nisi.</p>
+  </div>
+  <div class="col-md-4">
+    <div class="demo-content"> Ttile</div>
+    <p>Pellentesque et velit libero. Duis ut nulla tempor, facilisis ligula vel, ornare sapien. Maecenas sed arcu ut leo
+      mollis commodo. Pellentesque nec auctor eros. Fusce neque mi, semper a volutpat id, maximus consectetur metus. Sed
+      condimentum vulputate neque at facilisis. Vivamus facilisis odio vel eros suscipit, eget mattis urna malesuada.
+      Nullam sem neque, vehicula vitae justo sit amet, tincidunt bibendum augue. Donec vel diam scelerisque, dignissim
+      turpis nec, ullamcorper turpis. Sed lorem magna, tincidunt vel tellus quis, rhoncus cursus nibh. Duis dignissim eu
+      eros at vestibulum. Pellentesque egestas fermentum nisl ac facilisis. Maecenas at hendrerit lacus. Morbi ante magna,
+      laoreet in semper ac, gravida eget quam. Nunc aliquet, ex eget eleifend interdum, enim lectus malesuada elit, at lacinia
+      odio neque sit amet nisi.</p>
+  </div>
+  <div class="col-md-4">
+    <div class="demo-content"> Ttile</div>
+    <p>Pellentesque et velit libero. Duis ut nulla tempor, facilisis ligula vel, ornare sapien. Maecenas sed arcu ut leo
+      mollis commodo. Pellentesque nec auctor eros. Fusce neque mi, semper a volutpat id, maximus consectetur metus. Sed
+      condimentum vulputate neque at facilisis. Vivamus facilisis odio vel eros suscipit, eget mattis urna malesuada.
+      Nullam sem neque, vehicula vitae justo sit amet, tincidunt bibendum augue. Donec vel diam scelerisque, dignissim
+      turpis nec, ullamcorper turpis. Sed lorem magna, tincidunt vel tellus quis, rhoncus cursus nibh. Duis dignissim eu
+      eros at vestibulum. Pellentesque egestas fermentum nisl ac facilisis. Maecenas at hendrerit lacus. Morbi ante magna,
+      laoreet in semper ac, gravida eget quam. Nunc aliquet, ex eget eleifend interdum, enim lectus malesuada elit, at lacinia
+      odio neque sit amet nisi.</p>
+  </div>
+</div>
+
+<!--list-group-->
+  <ul class="list-group">
+    <li class="list-group-item">Pictures</li>
+    <li class="list-group-item">Documents</li>
+    <li class="list-group-item">Music</li>
+    <li class="list-group-item">Videos</li>
+</ul>
+
+<p>Mauris finibus felis eget sapien porttitor, vitae auctor turpis venenatis. Praesent porta metus vitae nunc gravida accumsan.
+   Suspendisse potenti. Pellentesque porta dui at ligula fringilla ultrices. Proin ut est quis neque fermentum tristique.
+   Etiam at rhoncus est. Morbi pellentesque ante nec libero sagittis porttitor. Curabitur fermentum leo in odio suscipit, ac
+   mollis sapien vulputate. Nam nec erat id nibh porta iaculis sed sit amet dolor. Proin ut elit sed metus blandit bibendum. Ut aliquet diam ut urna pulvinar rutrum. Nulla viverra nisl sed gravida venenatis.
+Donec tristique orci magna, quis pretium lorem luctus id. Phasellus aliquet at arcu eget aliquam. Phasellus pulvinar gravida
+augue a commodo. Quisque ligula mi, auctor vitae nibh at, pharetra dapibus risus. Proin volutpat nulla et odio venenatis, nec
+blandit ligula vulputate.Vestibulum enim augue, dapibus vel erat faucibus, fringilla feugiat diam. Donec pharetra, nulla at sagittis volutpat,
+massa odio ultricies risus, eu facilisis libero enim et erat. Etiam dictum lacus eu nulla luctus sollicitudin. Donec dignissim
+eget diam id hendrerit. Nulla ex metus, auctor ac est non, dictum tempor dolor. Fusce euismod mauris ac dolor interdum finibus.
+Donec iaculis elit purus, a vestibulum eros aliquam placerat.
+</p>
+
+<div class="container text-center">
+<button type="button" class="btn btn-danger btn-default">Click here</button>
+</div>
+
+
+
+<!--list-->
+    <ul class="list-unstyled">
+    <h3>Things to get done</h3>
+    <li>Classes
+      <ul>
+        <li>Web Design</li>
+        <li>Marketing</li>
+      </ul>
+    </li>
+  </ul>
+
+<p class="bg-warning">Pellentesque et velit libero. Duis ut nulla tempor, facilisis ligula vel, ornare sapien. Maecenas sed arcu ut leo
+    mollis commodo. Pellentesque nec auctor eros. Fusce neque mi, semper a volutpat id, maximus consectetur metus. Sed
+    condimentum vulputate neque at facilisis. Vivamus facilisis odio vel eros suscipit, eget mattis urna malesuada. Nullam
+    sem neque, vehicula vitae justo sit amet, tincidunt bibendum augue. Donec vel diam scelerisque, dignissim turpis nec,
+    ullamcorper turpis. Sed lorem magna, tincidunt vel tellus quis, rhoncus cursus nibh. Duis dignissim eu eros at vestibulum.
+    Pellentesque egestas fermentum nisl ac facilisis. Maecenas at hendrerit lacus. Morbi ante magna, laoreet in semper ac,
+    gravida eget quam. Nunc aliquet, ex eget eleifend interdum, enim lectus malesuada elit, at lacinia odio neque sit amet nisi.</p>
+
+
+<!--form-->
+<form>
+    <div class="form-group">
+        <label for="inputEmail">Email</label>
+        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+    </div>
+    <div class="form-group">
+        <label for="inputPassword">Password</label>
+        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+    </div>
+    <div class="checkbox">
+        <label><input type="checkbox"> Remember me</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>
+
+  </body>
+</html>
