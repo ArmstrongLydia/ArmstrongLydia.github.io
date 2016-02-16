@@ -112,7 +112,26 @@
       <div role="tabpanel" class="tab-pane" id="Q2">
         <div class="row">
           <div class="col-md-12">
-            <pre>//will put code here
+            <pre>function printFooBar() {
+var print = "";
+var number = Number(1);
+for (i = Number(1); i <= 100; i++) {
+if (i % 3 == 0 && i % 5 == 0) {
+print = print + "FooBar" + "<br/>";
+} else if (i % 3 == 0) {
+print = print + "Foo" + "<br/>";
+} else if (i % 5 == 0) {
+print = print + "Bar " + "<br/>";
+} else {
+print = print + i +"<br/>";
+}3
+}
+$("‪#‎q2result‬").html(print);
+}
+$("‪#‎q2button‬").on("click", function() {
+printFooBar();
+});
+});
                 </pre>
           </div>
           <div class="col-md-12">
