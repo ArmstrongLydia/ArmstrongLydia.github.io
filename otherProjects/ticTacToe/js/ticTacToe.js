@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
-  var circleOrEx = "o"; // what does this variable represent
-  var isGameInProgress = true; // what does this variable represent
-  var winningCombos = { // what does this variable represent; explain what the keys and values represent
+  var circleOrEx = "o"; // what does this variable represent - The letter 'o'
+  var isGameInProgress = true; // what does this variable represent - if the game is working correctly
+  var winningCombos = { // what does this variable represent; explain what the keys and values represent -
     0: [ //0 is key
       [1, 2], //this multiDimensional Array is values
       [3, 6],
@@ -47,13 +47,13 @@ $(document).ready(function() {
     ]
   };
 
-  // Explain what this event does
+  // places the x or o in the boxes
   $("#board").find("div").on("click", function() {
 
-    if (isGameInProgress && $(this).hasClass("empty")) { /// Explain these conditions
+    if (isGameInProgress && $(this).hasClass("empty")) { /// sees if the box is empty or not
       $(this).removeClass("empty").append("<span class='" + circleOrEx + "'>" + circleOrEx + "</span");
 
-      checkIfWon($(this).index(), circleOrEx); //Explain
+      checkIfWon($(this).index(), circleOrEx); //looks to see if there is a winner
 
       if (circleOrEx === "o") {
         circleOrEx = "x";
