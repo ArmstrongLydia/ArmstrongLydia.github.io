@@ -1,0 +1,55 @@
+[{
+  "year": "1969",
+  "name": "Chevrolet",
+  "model": "Camaro Z28",
+  "image": "images/car9.jpg",
+  "comments": [{
+    "username": "AboveAlpha",
+    "stars": 5,
+    "comment": "Loved this car..."
+  }, {
+    "username": "BrashTaga",
+    "stars": 1,
+    "comment": "Gear kept getting stuck in 3rd"
+  }, {
+    "username": "Dragonakom",
+    "stars": 4,
+    "comment": "Had a nice drive along the lake in this car"
+  }]
+}, {
+  "year": "1967",
+  "name": "Aston Martin",
+  "model": "DBS",
+  "image": "images/car10.jpg",
+  "comments": [{
+    "username": "Jubeamese",
+    "stars": 4,
+    "comment": "Sick ride!!!"
+  }, {
+    "username": "Pearbrai",
+    "stars": 5,
+    "comment": "Can i buy it?"
+  }, {
+    "username": "FacePriceless",
+    "stars": 5,
+    "comment": "Seriously loved this car!"
+  }]
+}, {
+  "year": "1961",
+  "name": "Porsche",
+  "model": "911",
+  "image": "images/car11.jpg",
+  "comments": [{
+    "username": "Ravenertu",
+    "stars": 2,
+    "comment": "A little out dated for my tasted!"
+  }, {
+    "username": "Roadbed",
+    "stars": 1,
+    "comment": "Meh"
+  }, {
+    "username": "Iconaler",
+    "stars": 5,
+    "comment": "Reminded me of my first car"
+  }]
+}]
