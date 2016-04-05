@@ -66,7 +66,7 @@ h1 {
   font-size: 20px;
   margin-top: 5px;
 }
-.renterName, .carType small, .carGender small{
+.renterName, .carYear small, .carModel small{
   color: #6DB733;
   text-shadow: 0px 1px 1px #000;
   font-style: italic;
