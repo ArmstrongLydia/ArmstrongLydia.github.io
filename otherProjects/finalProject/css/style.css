@@ -10,10 +10,10 @@ body {
   font-size: 24px;
 }
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
-  background-color: #6DB733;
+  background-color: #66B2FF;
 }
 .carousel {
-  background: #6DB733;
+  background: #202020;
   margin-top: 20px;
 }
 .carousel .item img {
@@ -67,9 +67,9 @@ h1 {
   margin-top: 5px;
 }
 .renterName, .carYear small, .carModel small{
-  color: #6DB733;
+  color: #66B2FF;
   text-shadow: 0px 1px 1px #000;
-  font-style: italic;
+  font-style: bold;
   letter-spacing: 5px;
 }
 #paws {
