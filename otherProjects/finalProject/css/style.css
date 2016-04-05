@@ -30,7 +30,8 @@ body {
   text-align: center;
   font-weight: bold;
   font-size: 24px;
-  
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #66B2FF, 0 0 70px #66B2FF, 0 0 80px #66B2FF, 0 0 100px #66B2FF, 0 0 150px #66B2FF;
+
 }
 small {
   font-weight: bold;
