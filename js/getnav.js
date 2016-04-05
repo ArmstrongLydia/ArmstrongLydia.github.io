@@ -1,5 +1,5 @@
 //get the file (replace with your own url)
-$.get("http://aarmstronglydia.github.io/partials/nav.html", function(data) {
+$.get("http://armstronglydia.github.io/partials/nav.html", function(data) {
 
   $(document).ready(function() {
 
