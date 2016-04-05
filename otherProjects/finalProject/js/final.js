@@ -31,7 +31,7 @@ $(document).ready(function() {
             $.each(data, function(index, item) {
                 html += '<div class="col-xs-12 col-md-4 jsonCar">' +
                   '<div class="carName">' + item.name + '</div>' +
-                  '<div class="carType"><small>type </small>' + item.type + '</div>' +
+                  '<div class="carType"><small>type </small>' + item.year + '</div>' +
                   '<div class="carModel"><small>model </small>' + item.model + '</div>' +
                   '<img class="carImage" src="' + item.image + '"/>' +
                   //deleted commentsContainer
